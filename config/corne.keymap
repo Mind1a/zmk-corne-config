@@ -52,7 +52,7 @@
 &kp TAB                      &kp Q         &kp W         &kp E        &kp R        &kp T        &kp Y    &kp U        &kp I        &kp O         &kp P            &kp BSPC
 &mt LS(LA(LC(LGUI))) ESCAPE  &hml LSHFT A  &hml LCTRL S  &hml LALT D  &hml LGUI F  &kp G        &kp H    &hmr RGUI J  &hmr RALT K  &hmr RCTRL L  &hmr RSHFT SEMI  &mt RS(RA(RC(RGUI))) ESC
 &kp LSHFT                    &kp Z         &kp X         &kp C        &kp V        &kp B        &kp N    &kp M        &kp COMMA    &kp DOT       &kp FSLH         &kp RSHFT
-                                                         &kp LGUI     &mo 1        &kp SPACE    &kp RET  &mo 2        &kp RALT
+                                                         &mo 4        &mo 1        &kp SPACE    &kp RET  &mo 2        &mo 3
             >;
         };
 
