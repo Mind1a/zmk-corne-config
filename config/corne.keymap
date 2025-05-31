@@ -55,7 +55,7 @@
 &kp TAB                      &kp Q         &kp W         &kp E        &kp R        &kp T        &kp Y    &kp U        &kp I        &kp O         &kp P            &kp BSPC
 &mt LS(LA(LC(LGUI))) ESCAPE  &hml LSHFT A  &hml LCTRL S  &hml LALT D  &hml LGUI F  &kp G        &kp H    &hmr RGUI J  &hmr RALT K  &hmr RCTRL L  &hmr RSHFT SEMI  &mt RS(RA(RC(RGUI))) ESC
 &kp LSHFT                    &kp Z         &kp X         &kp C        &kp V        &kp B        &kp N    &kp M        &kp COMMA    &kp DOT       &kp FSLH         &kp RSHFT
-                                                         &mo 4        &mo 1        &kp SPACE    &kp RET  &mo 2        &mo 3
+                                                         &mo 3        &mo 1        &kp SPACE    &kp RET  &mo 2        &mo 7
             >;
         };
 
@@ -89,15 +89,6 @@
             >;
         };
 
-        controls {
-            bindings = <
-&bt BT_CLR  &bt BT_SEL 0       &bt BT_SEL 1   &bt BT_SEL 2        &bt BT_SEL 3  &bt BT_SEL 4    &kp C_REWIND    &kp C_BRI_DEC      &kp C_BRI_INC    &kp C_FAST_FORWARD  &kp C_PLAY_PAUSE  &trans
-&trans      &kp C_RANDOM_PLAY  &kp C_SHUFFLE  &trans              &trans        &trans          &kp C_PREVIOUS  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_NEXT          &trans            &trans
-&trans      &trans             &trans         &kp K_CONTEXT_MENU  &trans        &trans          &trans          &kp C_MUTE         &trans           &trans              &trans            &trans
-                                              &to 5               &trans        &trans          &trans          &trans             &trans
-            >;
-        };
-
         mouse_misc {
             bindings = <
 &trans  &sk INSERT  &kp HOME  &kp END   &kp PRINTSCREEN  &kp PAUSE_BREAK    &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &trans  &trans
@@ -107,21 +98,12 @@
             >;
         };
 
-        layers {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&to 0   &trans  &trans  &to 0   &trans  &to 6     &trans  &trans  &trans  &trans  &trans  &to 0
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
-            >;
-        };
-
         gaming {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &mo 8   &mo 7   &trans    &trans  &trans  &trans
+                        &mo 6   &mo 5   &trans    &trans  &trans  &trans
             >;
         };
 
@@ -140,6 +122,24 @@
 &trans  &kp F6   &kp F7   &kp F8  &kp F9  &kp F10    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &kp F11  &kp F12  &trans  &trans  &trans     &trans  &trans  &trans  &trans  &trans  &trans
                           &trans  &trans  &trans     &trans  &trans  &trans
+            >;
+        };
+
+        controls {
+            bindings = <
+&bt BT_CLR  &bt BT_SEL 0       &bt BT_SEL 1   &bt BT_SEL 2        &bt BT_SEL 3  &bt BT_SEL 4    &kp C_REWIND    &kp C_BRI_DEC      &kp C_BRI_INC    &kp C_FAST_FORWARD  &kp C_PLAY_PAUSE  &trans
+&trans      &kp C_RANDOM_PLAY  &kp C_SHUFFLE  &trans              &trans        &trans          &kp C_PREVIOUS  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_NEXT          &trans            &trans
+&trans      &trans             &trans         &kp K_CONTEXT_MENU  &trans        &trans          &trans          &kp C_MUTE         &trans           &trans              &trans            &trans
+                                              &to 8               &trans        &trans          &trans          &trans             &trans
+            >;
+        };
+
+        layers {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&to 0   &trans  &trans  &to 0   &trans  &to 4     &trans  &trans  &trans  &trans  &trans  &to 0
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
     };
