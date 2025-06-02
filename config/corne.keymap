@@ -82,10 +82,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans  &kp EXCL                      &kp AT                   &kp HASH                    &kp DLLR                      &kp PRCNT           &kp CARET   &kp AMPS               &kp ASTRK                &kp LPAR         &kp RPAR          &trans
-&trans  &hml LEFT_SHIFT LEFT_BRACKET  &hml LCMD RIGHT_BRACKET  &hml LALT LEFT_PARENTHESIS  &hml LCTRL RIGHT_PARENTHESIS  &kp SINGLE_QUOTE    &kp LEFT    &hmr RCTRL DOWN_ARROW  &hmr RIGHT_ALT UP_ARROW  &hmr RGUI RIGHT  &hmr RSHIFT PIPE  &trans
-&trans  &kp PLUS                      &kp MINUS                &kp ASTERISK                &kp SLASH                     &kp GRAVE           &kp K_BACK  &kp PAGE_DOWN          &kp PG_UP                &kp K_FORWARD    &kp QUESTION      &trans
-                                                               &trans                      &trans                        &trans              &trans      &trans                 &trans
+&trans  &kp EXCL                      &kp AT                   &kp HASH                    &kp DLLR                      &kp PRCNT    &kp CARET   &kp AMPS               &kp ASTRK                &kp LPAR         &kp RPAR           &kp DELETE
+&trans  &hml LEFT_SHIFT LEFT_BRACKET  &hml LCMD RIGHT_BRACKET  &hml LALT LEFT_PARENTHESIS  &hml LCTRL RIGHT_PARENTHESIS  &kp EQUAL    &kp LEFT    &hmr RCTRL DOWN_ARROW  &hmr RIGHT_ALT UP_ARROW  &hmr RGUI RIGHT  &hmr RSHIFT GRAVE  &trans
+&trans  &kp PLUS                      &kp MINUS                &kp ASTERISK                &kp SLASH                     &kp PIPE     &kp K_BACK  &kp PAGE_DOWN          &kp PG_UP                &kp K_FORWARD    &trans             &trans
+                                                               &trans                      &trans                        &trans       &trans      &trans                 &trans
             >;
         };
 
