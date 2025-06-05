@@ -101,7 +101,7 @@
         work {
             bindings = <
 &trans                 &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&hml LA(LC(LGUI)) ESC  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &hmr RA(RC(RGUI)) ESC
+&hml LA(LC(LGUI)) ESC  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &hmr RA(RC(RGUI)) SINGLE_QUOTE
 &trans                 &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
                                        &trans  &trans  &trans    &trans  &trans  &trans
             >;
