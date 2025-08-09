@@ -91,10 +91,10 @@
 
         mouse_misc {
             bindings = <
-&trans  &sk INSERT  &kp HOME  &kp END   &kp PRINTSCREEN  &kp PAUSE_BREAK    &msc SCRL_RIGHT  &msc SCRL_UP    &msc SCRL_DOWN  &msc SCRL_LEFT   &trans  &trans
-&trans  &mkp MB4    &mkp MB2  &mkp MB3  &mkp LCLK        &mkp MB5           &mmv MOVE_LEFT   &mmv MOVE_DOWN  &mmv MOVE_UP    &mmv MOVE_RIGHT  &trans  &trans
-&trans  &trans      &trans    &trans    &trans           &trans             &trans           &trans          &trans          &trans           &trans  &trans
-                              &trans    &trans           &trans             &trans           &trans          &trans
+&trans  &sk INSERT      &kp HOME          &kp END       &kp PRINTSCREEN   &kp PAUSE_BREAK    &msc SCRL_RIGHT  &msc SCRL_UP    &msc SCRL_DOWN  &msc SCRL_LEFT   &trans  &trans
+&trans  &kp LEFT_SHIFT  &kp LEFT_COMMAND  &kp LEFT_ALT  &kp LEFT_CONTROL  &trans             &mmv MOVE_LEFT   &mmv MOVE_DOWN  &mmv MOVE_UP    &mmv MOVE_RIGHT  &trans  &trans
+&trans  &mkp MB4        &mkp MB2          &mkp MB3      &mkp LCLK         &mkp MB5           &trans           &trans          &trans          &trans           &trans  &trans
+                                          &trans        &trans            &trans             &trans           &trans          &trans
             >;
         };
 
